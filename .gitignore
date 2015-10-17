@@ -1,0 +1,4 @@
+## Don't keep track of all the things
+[Nn]ode_modules/*
+[Bb]ower_components/*
+dist/

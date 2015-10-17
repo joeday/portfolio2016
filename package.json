@@ -1,0 +1,18 @@
+{
+  "name": "joe_day_portfolio",
+  "description": "Joe Day is a front end developer in Seattle, WA",
+  "repository": "https://github.com/joeday/portfolio2016.git",
+  "version": "0.1.0",
+  "author": {
+    "name": "Joe Day",
+    "email": "heyjoeday@gmail.com"
+  },
+  "homepage": "http://joeday.co",
+  "dependencies": {
+    "bower": ""
+  },
+  "devDependencies": {
+    "assemble": "^0.4.42",
+    "grunt": "^0.4.5"
+  }
+}
