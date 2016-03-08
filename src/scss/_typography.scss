@@ -1,0 +1,37 @@
+$mono: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+
+h1,
+.h1 {
+    font-size: map-get($sizes, xxl);
+}
+
+h2,
+.h2 {
+    font-size: map-get($sizes, xl);
+}
+
+h3,
+.h3 {
+    font-size: map-get($sizes, lg);
+}
+
+h4,
+.h4, {
+    font-size: map-get($sizes, md);
+}
+
+h5,
+.h5,
+p,
+.p {
+    font-size: map-get($sizes, sm);
+}
+
+.small,
+.caption {
+    font-size: map-get($sizes, xs);
+}
+
+.tiny {
+    font-size: map-get($sizes, xxs);
+}

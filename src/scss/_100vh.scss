@@ -1,0 +1,74 @@
+// Basic home page layout using my 100vh styles
+
+.square {
+    display: flex;
+    height: 100vw;
+    width: 100vw;
+
+    // vp1
+    @media  (min-width: map-get($breakpoints, vp1)) and (orientation: portrait) {
+        height: 100vw;
+        width: 100vw;
+        background: #ddd;
+    }
+
+    @media  (min-width: map-get($breakpoints, vp1)) and (orientation: landscape) {
+        height: 100vh;
+        width: 100vh;
+        background: #ddd;
+    }
+
+    // vp2
+    @media  (min-width: map-get($breakpoints, vp2)) and (orientation: portrait) {
+        background: #bbb;
+    }
+
+    @media  (min-width: map-get($breakpoints, vp2)) and (orientation: landscape) {
+        background: #bbb;
+    }
+
+    // vp3
+    @media  (min-width: map-get($breakpoints, vp3)) and (orientation: portrait) {
+        background: #999;
+    }
+
+    @media  (min-width: map-get($breakpoints, vp3)) and (orientation: landscape) {
+        background: #999;
+    }
+
+    // vp4
+    @media  (min-width: map-get($breakpoints, vp4)) and (orientation: portrait) {
+        background: #777;
+    }
+
+    @media  (min-width: map-get($breakpoints, vp4)) and (orientation: landscape) {
+        background: #777;
+    }
+
+    // vp5
+    @media  (min-width: map-get($breakpoints, vp5)) and (orientation: portrait) {
+        background: #555;
+    }
+
+    @media  (min-width: map-get($breakpoints, vp5)) and (orientation: landscape) {
+        background: #555;
+    }
+
+    // vp6
+    @media  (min-width: map-get($breakpoints, vp6)) and (orientation: portrait) {
+        background: #333;
+    }
+
+    @media  (min-width: map-get($breakpoints, vp6)) and (orientation: landscape) {
+        background: #333;
+    }
+
+    // vp7
+    @media  (min-width: map-get($breakpoints, vp7)) and (orientation: portrait) {
+        background: #111;
+    }
+
+    @media  (min-width: map-get($breakpoints, vp7)) and (orientation: landscape) {
+        background: #111;
+    }
+}

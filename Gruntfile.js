@@ -17,7 +17,10 @@ module.exports = function (grunt) {
       options: {
         outputStyle: 'nested',
         sourceMap: true,
-        precision: 5
+        precision: 5,
+        includePaths: [
+            "node_modules"
+        ]
       },
       dist: {
         files: {
@@ -56,6 +59,7 @@ module.exports = function (grunt) {
         partials: ['src/doc/partials/**/*.hbs'],
         layout: ['src/doc/layouts/default.hbs'],
         flatten: true,
+        data: './src/doc/models/*.json',
 
         // Set the version number
         version: '<%= pkg.version %>',
