@@ -1,0 +1,55 @@
+$black: rgb(26, 19, 26);
+$red: rgb(213, 29, 29);
+$orange: rgb(253, 121, 23);
+$blue: rgb(56, 89, 194);
+$green: rgb(88, 161, 72);
+$brown: rgb(96, 49, 33);
+$gray_2: rgb(193, 182, 176);
+$gray_4: rgb(165, 161, 162);
+$gray_6: rgb(97, 77, 86);
+$gray_8: rgb(31, 35, 36);
+
+.c-swatch {
+    width: 100px;
+    height: 100px;
+}
+
+.c-black-bg {
+    background-color: $black;
+}
+
+.c-red-bg {
+    background-color: $red;
+}
+
+.c-orange-bg {
+    background-color: $orange;
+}
+
+.c-blue-bg {
+    background-color: $blue;
+}
+
+.c-green-bg {
+    background-color: $green;
+}
+
+.c-brown-bg {
+    background-color: $brown;
+}
+
+.c-gray_2-bg {
+    background-color: $gray_2;
+}
+
+.c-gray_4-bg {
+    background-color: $gray_4;
+}
+
+.c-gray_6-bg {
+    background-color: $gray_6;
+}
+
+.c-gray_8-bg {
+    background-color: $gray_8;
+}
